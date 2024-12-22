@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'joblisting.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'joblistings',
-        'USER': 'root',
-        'PASSWORD': 'Preya@29',
+        'NAME': '<databasename>',
+        'USER': '<username>',
+        'PASSWORD': '<password>',
         'HOST': 'localhost',
         'PORT': '3306',
     }
